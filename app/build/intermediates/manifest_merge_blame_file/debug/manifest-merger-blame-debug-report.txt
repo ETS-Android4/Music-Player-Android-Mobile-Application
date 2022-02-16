@@ -1,0 +1,74 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.musicplayer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:5:5-79
+11-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:6:5-67
+12-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+13-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:7:5-76
+13-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:7:22-74
+14    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+14-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:8:5-81
+14-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:9:5-80
+15-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:9:22-77
+16
+17    <application
+17-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:10:5-28:19
+18        android:allowBackup="true"
+18-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:11:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] /home/shreya1/.gradle/caches/transforms-2/files-2.1/73530a2d0c1df4b3085807c82555ce12/core-1.1.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:icon="@mipmap/ic_launcher"
+22-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:12:9-43
+23        android:label="@string/app_name"
+23-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:13:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:14:9-54
+25        android:supportsRtl="true"
+25-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:15:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.MusicPlayer" >
+27-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:16:9-49
+28        <activity android:name="com.example.musicplayer.MainActivity" >
+28-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:17:9-23:20
+28-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:17:19-47
+29            <intent-filter>
+29-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:18:13-22:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:19:17-69
+30-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:19:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:21:17-77
+32-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:21:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity android:name="com.example.musicplayer.Download" />
+35-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:24:9-55
+35-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:24:19-43
+36        <activity android:name="com.example.musicplayer.PlaySelectedSong" />
+36-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:25:9-63
+36-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:25:19-51
+37
+38        <service android:name="com.example.musicplayer.MusicPlayerApp" />
+38-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:26:9-50
+38-->/home/shreya1/AndroidStudioProjects/Assignment2/assignment0-shreyagoel54/app/src/main/AndroidManifest.xml:26:18-48
+39    </application>
+40
+41</manifest>

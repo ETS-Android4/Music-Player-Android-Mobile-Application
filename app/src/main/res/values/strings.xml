@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MusicPlayer</string>
+    <string name="greeting_text">Hello World! "From Name" </string>
+    <string name="intro">Welcome to the World of Music!</string>
+    <string name="choose">Select a Song by Clicking on Play Music! or Download the Song by clicking on Download Song! </string>
+    <string name="startmusic">The List of the Songs that can be Played presented Below</string>
+    <string name="play1"> Press Start and Stop to play or stop the music!</string>
+    <string name="download1"> The Song has Start Downloading Check the Status Below!</string>
+    <string name="download">Enter the URL of the song to be Downloaded !</string>
+    <string-array name="Songs">
+        <item>Song 1</item>
+        <item>Song 2</item>
+        <item>Song 3</item>
+        <item>Song 4</item>
+        <item>Song 5</item>
+    </string-array>
+</resources>
