@@ -1,7 +1,7 @@
 # Music-Player-Android-Mobile-Application
 
 ### Application Activity
-<p aign = "justify">
+<p align = "justify">
 A music player app will have control to<br/>
 1) Start a foreground service to start playing music (store some music files in appropriate resource directory) <br/>
 2) Stop playing the music <br/>
